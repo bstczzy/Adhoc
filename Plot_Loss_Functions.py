@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 Dir = '/Users/zhenyuz/Documents/Projects/Davis Courses/loss_function_plots'
 
 def exponential(x):
-    return np.exp(x)
+    return np.exp(-x)
 
 def quadratic(x):
     return (np.max(1-x,0))**2
